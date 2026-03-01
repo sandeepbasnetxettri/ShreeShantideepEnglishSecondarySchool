@@ -126,6 +126,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <select name="role" required>
                         <option value="student">Student</option>
                         <option value="teacher">Teacher</option>
+                        <option value="admin">Administrator Profile</option>
                     </select>
                 </div>
             </div>
@@ -173,3 +174,4 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 </body>
 </html>
+
